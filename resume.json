@@ -1,0 +1,221 @@
+{
+  "name": "Arlo Herrine",
+  "info": {
+    "brief": "I have a wide variety of experience and interest within various fields of computing, most recently with enterprise retail software.  I am looking to expand my horizons into other software fields."
+  },
+  "contact": {
+    "email": "arloherrine@gmail.com",
+    "phone": "610-639-8325",
+    "website": "https://arloherrine.github.io"
+  },
+  "location": {
+    "city": "Round Rock",
+    "region": "Texas",
+    "country": "US",
+    "code": "78681",
+    "address": "1803 Taron Cove"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Software Engineer",
+        "employer": "Indeed.com",
+        "current": true,
+        "start": "2014-08-01",
+        "url": "https://indeed.com",
+        "keywords": "",
+        "highlights": [
+          "improved job posting javascript frontend using Closure library and compiler with soy template",
+          "added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ",
+          "implemented and supported internal tooling for other engineers",
+          "created internal developer environment system using bash and python scripts around docker",
+          "maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs"
+        ]
+      },
+      {
+        "position": "Research & Development Engineer",
+        "employer": "IPsoft",
+        "start": "2013-02-01",
+        "end": "2014-08-01",
+        "url": "http://www.ipsoft.com/",
+        "keywords": "",
+        "highlights": [
+          "Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases",
+          "Estimated and assigned new features and bugs to my team",
+          "Managed the project using agile methodologies",
+          "Designed and implemented a first order logic engine for interpreting and then acting upon natural language",
+          "Conceived and realized the machine learning system for dynamically creating and executing new business processes",
+          "Fine tuned module for understanding, analyzing, and storing natural language, then generating natural language responses",
+          "Demonstrated and explained the functionality and design of the system to high level executives at enterprise clients"
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "employer": "Google",
+        "start": "2012-02-01",
+        "end": "2013-02-01",
+        "url": "https://www.google.com",
+        "keywords": "",
+        "highlights": [
+          "Developed library for deploying video ads in client applications",
+          "Fixed bugs in Flash, Javascript, iOS, and Android versions of the library",
+          "Designed and implemented an original new version of the Android library",
+          "Created a new version of the library for Samsung smart TV",
+          "Maintained and expanded unit and integration tests",
+          "Managed public releases of the library",
+          "Meticulously documented all code changes and new additions"
+        ]
+      },
+      {
+        "position": "Associate Applications Engineer",
+        "employer": "Micros Retail Systems",
+        "start": "2010-08-01",
+        "end": "2012-03-01",
+        "url": "http://www.microsnyc.com/",
+        "keywords": "",
+        "highlights": [
+          "Developed Java point of sale application",
+          "Developed and deployed iOS point of sale application",
+          "Designed and implemented customer specific modifications",
+          "Interfaced with customers to determine requirements for modifications and configurations",
+          "Worked with quality assurance to resolve feedbacks"
+        ]
+      },
+      {
+        "position": "Intern",
+        "employer": "TerraCycle",
+        "start": "2009-06-01",
+        "end": "2009-08-01",
+        "url": "https://www.terracycle.com",
+        "keywords": "",
+        "highlights": [
+          "Constructed database using PHP and MySQL",
+          "Managed variety of customer service information",
+          "Interfaced with customers and solved customer problems"
+        ]
+      },
+      {
+        "position": "Lab Teaching Assistant",
+        "employer": "Oberlin College",
+        "start": "2008-09-01",
+        "end": "2009-12-01",
+        "url": "https://home.oberlin.edu/",
+        "keywords": "",
+        "highlights": [
+          "Assisted students with Computer Science projects",
+          "Explained concepts to students"
+        ]
+      },
+      {
+        "position": "Field Manager",
+        "employer": "Environment America",
+        "start": "2008-06-01",
+        "end": "2008-08-01",
+        "url": "http://www.environmentamerica.org/",
+        "keywords": "",
+        "highlights": [
+          "Canvassed areas of the greater Philadelphia area for environmental issues",
+          "Solicited for and collected donations",
+          "Trained new canvassers",
+          "Coordinated areas for others to canvas",
+          "Lobbied members of the Pennsylvania government"
+        ]
+      },
+      {
+        "position": "Resident Assistant",
+        "employer": "Oberlin College",
+        "start": "2008-02-01",
+        "end": "2010-05-01",
+        "url": "https://home.oberlin.edu/",
+        "keywords": "",
+        "highlights": [
+          "Provided guidance within the College community",
+          "Lead and assisted residents through their first semesters at college",
+          "Organized programs to assist residents grow and learn"
+        ]
+      },
+      {
+        "position": "Crew Member",
+        "employer": "Trader Joe's",
+        "start": "2006-11-01",
+        "end": "2007-08-01",
+        "url": "http://www.traderjoes.com/",
+        "keywords": "",
+        "highlights": [
+          "Stocked shelves",
+          "Checked out customers at register"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "history": [
+      {
+        "institution": "Oberlin College",
+        "start": "2007-01-01",
+        "end": "2010-01-01",
+        "url": null,
+        "summary": null,
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Unix"
+      },
+      {
+        "name": "Unix Shell Scripting"
+      },
+      {
+        "name": "Core Java"
+      },
+      {
+        "name": "Java software development"
+      },
+      {
+        "name": "Java"
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "Objective-C"
+      },
+      {
+        "name": "Cocoa"
+      },
+      {
+        "name": "Linux"
+      },
+      {
+        "name": "Bash"
+      },
+      {
+        "name": "Eclipse"
+      },
+      {
+        "name": "Xcode"
+      },
+      {
+        "name": "iPhone development"
+      },
+      {
+        "name": "iPhone"
+      },
+      {
+        "name": "Android"
+      },
+      {
+        "name": "Mac OS X"
+      },
+      {
+        "name": "Mac OS"
+      },
+      {
+        "name": "Mac"
+      }
+    ]
+  }
+}
