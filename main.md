@@ -2,6 +2,6 @@
 ---
 Arlo Herrine Homepage
 
-* [Resume](/resume.html)
+* [Resume](/resume)
 * [GitHub Profile](https://github.com/arloherrine)
 * [LinkedIn Profile](https://www.linkedin.com/in/arloherrine)
