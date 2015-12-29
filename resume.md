@@ -37,7 +37,7 @@ I have a wide variety of experience and interest within various fields of comput
   - created internal developer environment system using bash and python scripts around docker
   - maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs
 
-### Research & Development Engineer, IPsoft (2013-02 -- 2014-08)
+### Research and Development Engineer, IPsoft (2013-02 -- 2014-08)
 
   - Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases
   - Estimated and assigned new features and bugs to my team
