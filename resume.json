@@ -123,15 +123,6 @@
     ],
     "skills": [
         {
-            "name": "GNU/Linux",
-            "level": "Experienced",
-            "keywords": [
-                "Bash",
-                "Zsh",
-                "Shell script"
-            ]
-        },
-        {
             "name": "Java",
             "level": "Experienced",
             "keywords": [
@@ -145,14 +136,12 @@
             ]
         },
         {
-            "name": "Mobile",
+            "name": "Python",
             "level": "Experienced",
             "keywords": [
-                "iOS",
-                "Objective-C",
-                "Xcode",
-                "Android",
-                "Android Studio"
+                "Python 2",
+                "Python 3",
+                "Virtual Env"
             ]
         },
         {
@@ -170,6 +159,15 @@
             ]
         },
         {
+            "name": "GNU/Linux",
+            "level": "Experienced",
+            "keywords": [
+                "Bash",
+                "Zsh",
+                "Shell script"
+            ]
+        },
+        {
             "name": "Databases",
             "level": "Experienced",
             "keywords": [
@@ -180,12 +178,14 @@
             ]
         },
         {
-            "name": "Python",
+            "name": "Mobile",
             "level": "Experienced",
             "keywords": [
-                "Python 2",
-                "Python 3",
-                "Virtual Env"
+                "iOS",
+                "Objective-C",
+                "Xcode",
+                "Android",
+                "Android Studio"
             ]
         }
     ]
