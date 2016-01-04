@@ -1,10 +1,32 @@
-<html>
-    <head>
-        <title>Arlo Herrine index</title>
-        <meta http-equiv="refresh" content="0; url=/main" />
-    </head>
-    <body>
-        Redirecting to main page...
-        <a href="/main">Or just go there now</a>
-    </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul>
+      <li>
+          <a href="/resume.html">Resume (HTML)</a> <a href="/resume.pdf">(PDF)</a>
+      </li>
+      <li>
+          <a href="https://github.com/arloherrine">GitHub Profile</a>
+      </li>
+      <li>
+          <a href="https://www.linkedin.com/in/arloherrine">LinkedIn Profile</a>
+      </li>
+  </ul>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>
