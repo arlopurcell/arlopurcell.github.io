@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Arlo Herrine",
-        "summary": "I have a wide variety of experience and interest within various fields of computing, with experience from point of sale sofware to natural language processing to giant internet companies.  I am looking to expand my horizons, solve interesting problems, and build great things.",
+        "summary": "I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.",
         "email": "arloherrine@gmail.com",
         "phone": "610-639-8325",
         "website": "https://arloherrine.github.io",
@@ -21,11 +21,11 @@
             "startDate": "2014-08-01",
             "website": "http://www.indeed.com",
             "highlights": [
-                "improved job posting javascript frontend using Closure library and compiler with soy template",
-                "added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ",
-                "implemented and supported internal tooling for other engineers",
-                "created internal developer environment system using bash and python scripts around docker",
-                "maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs"
+                "Improved job posting javascript frontend using Closure library and compiler with soy template",
+                "Added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ",
+                "Implemented and supported internal tooling for other engineers",
+                "Created internal developer environment system using bash and python scripts around docker",
+                "Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs"
                 ]
         },
         {
