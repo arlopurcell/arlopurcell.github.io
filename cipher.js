@@ -3,7 +3,7 @@ function processForm(e) {
 
     var ciphertext = document.getElementById('ciphertext').innerHTML;
     var plaintext = ciphertext.split("").map(function (c) {
-        if (c == " ") {
+        if (c == " " || c == ".") {
             return " ";
         } else {
             return this[c].value;
