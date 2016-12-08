@@ -25,7 +25,10 @@
                 "Added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ",
                 "Implemented and supported internal tooling for other engineers",
                 "Created internal developer environment system using bash and python scripts around docker",
-                "Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs"
+                "Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs",
+                "Proctored and graded coding exams for interview candidates",
+                "Built a new system to aggregate data on code changes and then make automated merge decisions for continuous delivery",
+                "Designed and implemented fast tool for querying, filtering, and caching production and QA logs"
                 ]
         },
         {
@@ -144,6 +147,14 @@
                 "Python 3",
                 "Virtual Env"
             ]
+        },
+        {
+            "name": "Rust",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Go",
+            "level": "Intermediate"
         },
         {
             "name": "Web Development",
