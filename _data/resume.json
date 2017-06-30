@@ -1,16 +1,17 @@
 {
     "basics": {
-        "name": "Arlo Herrine",
-        "summary": "I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.",
+        firstName: "Arlo J.",
+        lastName: "Herrine",
         "email": "arloherrine@gmail.com",
-        "phone": "610-639-8325",
+        "phone": "512-799-6701",
         "website": "https://arloherrine.github.io",
+        "summary": "I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.",
         "location": {
+            "address": "1803 Taron Cove",
             "city": "Round Rock",
             "region": "Texas",
-            "countryCode": "US",
             "postalCode": "78681",
-            "address": "1803 Taron Cove"
+            "countryCode": "US"
         }
     },
     "work": [
@@ -18,7 +19,7 @@
             "position": "Software Engineer",
             "company": "Indeed.com",
             "current": true,
-            "startDate": "2014-08-01",
+            "startDate": "August 2014",
             "website": "http://www.indeed.com",
             "highlights": [
                 "Improved job posting javascript frontend using Closure library and compiler with soy template",
@@ -35,8 +36,8 @@
             "position": "Research and Development Engineer",
             "company": "IPsoft",
             "website": "http://www.ipsoft.com",
-            "startDate": "2013-02-01",
-            "endDate": "2014-08-01",
+            "startDate": "February 2013",
+            "endDate": "Ausust 2014",
             "highlights": [
                 "Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases",
                 "Estimated and assigned new features and bugs to my team",
@@ -51,8 +52,8 @@
             "position": "Software Engineer",
             "company": "Google",
             "website": "https://www.google.com",
-            "startDate": "2012-02-01",
-            "endDate": "2013-02-01",
+            "startDate": "February 2012",
+            "endDate": "February 2013",
             "highlights": [
                 "Developed library for deploying video ads in client applications",
                 "Fixed bugs in Flash, Javascript, iOS, and Android versions of the library",
@@ -67,8 +68,8 @@
             "position": "Associate Applications Engineer",
             "company": "Micros Retail Systems",
             "website": "http://www.microsnyc.com",
-            "startDate": "2010-08-01",
-            "endDate": "2012-03-01",
+            "startDate": "August 2010",
+            "endDate": "March 2012",
             "highlights": [
                 "Developed Java point of sale application",
                 "Developed and deployed iOS point of sale application",
@@ -81,8 +82,8 @@
             "position": "Intern",
             "company": "TerraCycle",
             "website": "https://www.terracycle.com",
-            "startDate": "2009-06-01",
-            "endDate": "2009-08-01",
+            "startDate": "June 2009",
+            "endDate": "August 2009",
             "highlights": [
                 "Constructed database using PHP and MySQL",
                 "Managed variety of customer service information",
@@ -93,8 +94,8 @@
             "position": "Lab Teaching Assistant",
             "company": "Oberlin College",
             "website": "https://home.oberlin.edu",
-            "startDate": "2008-09-01",
-            "endDate": "2009-12-01",
+            "startDate": "September 2008",
+            "endDate": "December 2009",
             "highlights": [
                 "Assisted students with Computer Science projects",
                 "Explained concepts to students"
@@ -104,8 +105,8 @@
             "position": "Field Manager",
             "company": "Environment America",
             "website": "http://www.environmentamerica.org",
-            "startDate": "2008-06-01",
-            "endDate": "2008-08-01",
+            "startDate": "June 2008",
+            "endDate": "August 2008",
             "highlights": [
                 "Canvassed areas of the greater Philadelphia area for environmental issues",
                 "Solicited for and collected donations",
@@ -118,9 +119,9 @@
     "education": [
         {
             "institution": "Oberlin College",
-            "startDate": "2007-09-01",
-            "endDate": "2010-05-31",
-            "studyType": "Bachelor",
+            "startDate": "September 2007",
+            "endDate": "May 2010",
+            "studyType": "Bachelor of Arts",
             "gpa": "3.67",
             "area": "Computer Science"
         }

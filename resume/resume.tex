@@ -1,0 +1,208 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Arlo J.}{Herrine}
+\address{1803 Taron Cove, Round Rock, Texas 78681}
+\mobile{512-799-6701} 
+%%% Social
+\email{arloherrine@gmail.com}
+\homepage{https://arloherrine.github.io}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {}
+  {Arlo J. Herrine~~~·~~~Résumé}
+  {\thepage}
+
+
+\begin{document}
+%%% Make a header for CV with personal data
+\makecvheader
+
+\cvsection{Experience}
+\begin{cventries}
+    \cventry
+    {Software Engineer}
+    {Indeed.com}
+    {http://www.indeed.com}
+    {August 2014 - Present}
+    {
+      \begin{cvitems}
+        \item {Improved job posting javascript frontend using Closure library and compiler with soy template}\item {Added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ}\item {Implemented and supported internal tooling for other engineers}\item {Created internal developer environment system using bash and python scripts around docker}\item {Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs}\item {Proctored and graded coding exams for interview candidates}\item {Built a new system to aggregate data on code changes and then make automated merge decisions for continuous delivery}\item {Designed and implemented fast tool for querying, filtering, and caching production and QA logs}
+      \end{cvitems}
+    }
+    \cventry
+    {Research and Development Engineer}
+    {IPsoft}
+    {http://www.ipsoft.com}
+    {February 2013 - Ausust 2014}
+    {
+      \begin{cvitems}
+        \item {Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases}\item {Estimated and assigned new features and bugs to my team}\item {Managed the project using agile methodologies}\item {Designed and implemented a first order logic engine for interpreting and then acting upon natural language}\item {Conceived and realized the machine learning system for dynamically creating and executing new business processes}\item {Fine tuned module for understanding, analyzing, and storing natural language, then generating natural language responses}\item {Demonstrated and explained the functionality and design of the system to high level executives at enterprise clients}
+      \end{cvitems}
+    }
+    \cventry
+    {Software Engineer}
+    {Google}
+    {https://www.google.com}
+    {February 2012 - February 2013}
+    {
+      \begin{cvitems}
+        \item {Developed library for deploying video ads in client applications}\item {Fixed bugs in Flash, Javascript, iOS, and Android versions of the library}\item {Designed and implemented an original new version of the Android library}\item {Created a new version of the library for Samsung smart TV}\item {Maintained and expanded unit and integration tests}\item {Managed public releases of the library}\item {Meticulously documented all code changes and new additions}
+      \end{cvitems}
+    }
+    \cventry
+    {Associate Applications Engineer}
+    {Micros Retail Systems}
+    {http://www.microsnyc.com}
+    {August 2010 - March 2012}
+    {
+      \begin{cvitems}
+        \item {Developed Java point of sale application}\item {Developed and deployed iOS point of sale application}\item {Designed and implemented customer specific modifications}\item {Interfaced with customers to determine requirements for modifications and configurations}\item {Worked with quality assurance to resolve feedbacks}
+      \end{cvitems}
+    }
+    \cventry
+    {Intern}
+    {TerraCycle}
+    {https://www.terracycle.com}
+    {June 2009 - August 2009}
+    {
+      \begin{cvitems}
+        \item {Constructed database using PHP and MySQL}\item {Managed variety of customer service information}\item {Interfaced with customers and solved customer problems}
+      \end{cvitems}
+    }
+    \cventry
+    {Lab Teaching Assistant}
+    {Oberlin College}
+    {https://home.oberlin.edu}
+    {September 2008 - December 2009}
+    {
+      \begin{cvitems}
+        \item {Assisted students with Computer Science projects}\item {Explained concepts to students}
+      \end{cvitems}
+    }
+    \cventry
+    {Field Manager}
+    {Environment America}
+    {http://www.environmentamerica.org}
+    {June 2008 - August 2008}
+    {
+      \begin{cvitems}
+        \item {Canvassed areas of the greater Philadelphia area for environmental issues}\item {Solicited for and collected donations}\item {Trained new canvassers}\item {Coordinated areas for others to canvas}\item {Lobbied members of the Pennsylvania government}
+      \end{cvitems}
+    }
+  
+\end{cventries}
+
+\cvsection{Education}
+\begin{cventries}
+    \cventry
+    {Bachelor of Arts in Computer Science}
+    {Oberlin College}
+    {3.67 GPA}
+    {September 2007 - May 2010}
+    {} % list
+  
+\end{cventries}
+
+\cvsection{Skills}
+\begin{cventries}
+    \cventry
+    {Java 6 \quad Java 7 \quad Java 8 \quad Spring \quad Eclipse \quad IntelliJ IDEA \quad Guava \quad }
+    {Java}
+    {Experienced}
+    {} % dates
+    {} % list
+    \cventry
+    {Python 2 \quad Python 3 \quad Virtual Env \quad }
+    {Python}
+    {Experienced}
+    {} % dates
+    {} % list
+    \cventry
+    {}
+    {Rust}
+    {Intermediate}
+    {} % dates
+    {} % list
+    \cventry
+    {}
+    {Go}
+    {Intermediate}
+    {} % dates
+    {} % list
+    \cventry
+    {Javascript \quad JQuery \quad AJAX \quad Closure \quad Soy templates \quad HTML \quad HTML5 \quad CSS \quad }
+    {Web Development}
+    {Experienced}
+    {} % dates
+    {} % list
+    \cventry
+    {Bash \quad Zsh \quad Shell script \quad }
+    {GNU/Linux}
+    {Experienced}
+    {} % dates
+    {} % list
+    \cventry
+    {SQL \quad MySQL \quad MongoDB \quad Cassandra \quad }
+    {Databases}
+    {Experienced}
+    {} % dates
+    {} % list
+    \cventry
+    {iOS \quad Objective-C \quad Xcode \quad Android \quad Android Studio \quad }
+    {Mobile}
+    {Experienced}
+    {} % dates
+    {} % list
+  
+\end{cventries}
+
+\end{document}
+
