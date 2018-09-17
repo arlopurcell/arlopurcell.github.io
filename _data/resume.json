@@ -1,10 +1,10 @@
 {
     "basics": {
         firstName: "Arlo J.",
-        lastName: "Herrine",
-        "email": "arloherrine@gmail.com",
+        lastName: "Purcell",
+        "email": "arlopurcell@gmail.com",
         "phone": "512-799-6701",
-        "website": "https://arloherrine.github.io",
+        "website": "https://arlopurcell.github.io",
         "summary": "I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.",
         "location": {
             "address": "1803 Taron Cove",
