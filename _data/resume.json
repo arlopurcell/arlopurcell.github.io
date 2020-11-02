@@ -2,8 +2,8 @@
     "basics": {
         firstName: "Arlo J.",
         lastName: "Purcell",
-        "email": "arlopurcell@gmail.com",
-        "phone": "512-799-6701",
+        "email": "arlo@purcell.live",
+        "phone": "512-779-5465",
         "website": "https://arlopurcell.github.io",
         "summary": "I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.",
         "location": {
@@ -29,7 +29,10 @@
                 "Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs",
                 "Proctored and graded coding exams for interview candidates",
                 "Built a new system to aggregate data on code changes and then make automated merge decisions for continuous delivery",
-                "Designed and implemented fast tool for querying, filtering, and caching production and QA logs"
+                "Designed and implemented fast tool for querying, filtering, and caching production and QA logs",
+                "Iteratively built and validated a new, caregiving job marketplace application as part of an internal incubator program",
+                "Lead a team building a tool to build and execute data pipelines to convert application logs into queryable indices",
+                "Wrote a custom expression language for processing data to build into indices"
                 ]
         },
         {
@@ -129,76 +132,31 @@
     "skills": [
         {
             "name": "Java",
-            "level": "Experienced",
-            "keywords": [
-                "Java 6",
-                "Java 7",
-                "Java 8",
-                "Spring",
-                "Eclipse",
-                "IntelliJ IDEA",
-                "Guava"
-            ]
+            "level": "Experienced"
         },
         {
             "name": "Python",
-            "level": "Experienced",
-            "keywords": [
-                "Python 2",
-                "Python 3",
-                "Virtual Env"
-            ]
+            "level": "Experienced"
         },
         {
             "name": "Rust",
             "level": "Intermediate"
         },
         {
-            "name": "Go",
+            "name": "Scala",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Javascript",
             "level": "Intermediate"
         },
         {
             "name": "Web Development",
             "level": "Experienced",
             "keywords": [
-                "Javascript",
-                "JQuery",
-                "AJAX",
-                "Closure",
-                "Soy templates",
                 "HTML",
-                "HTML5",
-                "CSS"
-            ]
-        },
-        {
-            "name": "GNU/Linux",
-            "level": "Experienced",
-            "keywords": [
-                "Bash",
-                "Zsh",
-                "Shell script"
-            ]
-        },
-        {
-            "name": "Databases",
-            "level": "Experienced",
-            "keywords": [
-                "SQL",
-                "MySQL",
-                "MongoDB",
-                "Cassandra"
-            ]
-        },
-        {
-            "name": "Mobile",
-            "level": "Experienced",
-            "keywords": [
-                "iOS",
-                "Objective-C",
-                "Xcode",
-                "Android",
-                "Android Studio"
+                "CSS",
+                "WebAssembly"
             ]
         }
     ]

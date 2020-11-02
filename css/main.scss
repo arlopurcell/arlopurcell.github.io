@@ -47,3 +47,17 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.toilet {
+    font-family: monospace, fixed; 
+    font-weight: bold; 
+    line-height: 1em;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+    &:hover {
+        text-decoration: none;
+        border: 1px solid;
+    }
+}
+
