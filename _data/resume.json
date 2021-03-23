@@ -1,25 +1,24 @@
 {
     "basics": {
-        firstName: "Arlo J.",
-        lastName: "Purcell",
+        "name": "Arlo J Purcell",
         "email": "arlo@purcell.live",
         "phone": "512-779-5465",
         "website": "https://arlopurcell.github.io",
         "summary": "I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.",
         "location": {
-            "address": "1803 Taron Cove",
-            "city": "Round Rock",
-            "region": "Texas",
-            "postalCode": "78681",
+            "address": "4764 New River Road",
+            "city": "Murrells Inlet",
+            "region": "South Carolina",
+            "postalCode": "29576",
             "countryCode": "US"
         }
     },
     "work": [
         {
-            "position": "Software Engineer",
+            "position": "Staff Software Engineer",
             "company": "Indeed.com",
             "current": true,
-            "startDate": "August 2014",
+            "startDate": "2014-08",
             "website": "http://www.indeed.com",
             "highlights": [
                 "Improved job posting javascript frontend using Closure library and compiler with soy template",
@@ -32,15 +31,16 @@
                 "Designed and implemented fast tool for querying, filtering, and caching production and QA logs",
                 "Iteratively built and validated a new, caregiving job marketplace application as part of an internal incubator program",
                 "Lead a team building a tool to build and execute data pipelines to convert application logs into queryable indices",
-                "Wrote a custom expression language for processing data to build into indices"
+                "Wrote a custom expression language for processing data to build into indices",
+                "Implemented fraud prevention and mitigation measures in candidate tracking system"
                 ]
         },
         {
             "position": "Research and Development Engineer",
             "company": "IPsoft",
             "website": "http://www.ipsoft.com",
-            "startDate": "February 2013",
-            "endDate": "Ausust 2014",
+            "startDate": "2013-02",
+            "endDate": "2014-08",
             "highlights": [
                 "Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases",
                 "Estimated and assigned new features and bugs to my team",
@@ -55,8 +55,8 @@
             "position": "Software Engineer",
             "company": "Google",
             "website": "https://www.google.com",
-            "startDate": "February 2012",
-            "endDate": "February 2013",
+            "startDate": "2012-02",
+            "endDate": "2013-02",
             "highlights": [
                 "Developed library for deploying video ads in client applications",
                 "Fixed bugs in Flash, Javascript, iOS, and Android versions of the library",
@@ -71,8 +71,8 @@
             "position": "Associate Applications Engineer",
             "company": "Micros Retail Systems",
             "website": "http://www.microsnyc.com",
-            "startDate": "August 2010",
-            "endDate": "March 2012",
+            "startDate": "2010-08",
+            "endDate": "2012-03",
             "highlights": [
                 "Developed Java point of sale application",
                 "Developed and deployed iOS point of sale application",
@@ -80,50 +80,13 @@
                 "Interfaced with customers to determine requirements for modifications and configurations",
                 "Worked with quality assurance to resolve feedbacks"
                 ]
-        },
-        {
-            "position": "Intern",
-            "company": "TerraCycle",
-            "website": "https://www.terracycle.com",
-            "startDate": "June 2009",
-            "endDate": "August 2009",
-            "highlights": [
-                "Constructed database using PHP and MySQL",
-                "Managed variety of customer service information",
-                "Interfaced with customers and solved customer problems"
-            ]
-        },
-        {
-            "position": "Lab Teaching Assistant",
-            "company": "Oberlin College",
-            "website": "https://home.oberlin.edu",
-            "startDate": "September 2008",
-            "endDate": "December 2009",
-            "highlights": [
-                "Assisted students with Computer Science projects",
-                "Explained concepts to students"
-            ]
-        },
-        {
-            "position": "Field Manager",
-            "company": "Environment America",
-            "website": "http://www.environmentamerica.org",
-            "startDate": "June 2008",
-            "endDate": "August 2008",
-            "highlights": [
-                "Canvassed areas of the greater Philadelphia area for environmental issues",
-                "Solicited for and collected donations",
-                "Trained new canvassers",
-                "Coordinated areas for others to canvas",
-                "Lobbied members of the Pennsylvania government"
-            ]
         }
     ],
     "education": [
         {
             "institution": "Oberlin College",
-            "startDate": "September 2007",
-            "endDate": "May 2010",
+            "startDate": "2007-09",
+            "endDate": "2010-05",
             "studyType": "Bachelor of Arts",
             "gpa": "3.67",
             "area": "Computer Science"
@@ -132,11 +95,11 @@
     "skills": [
         {
             "name": "Java",
-            "level": "Experienced"
+            "level": "Master"
         },
         {
             "name": "Python",
-            "level": "Experienced"
+            "level": "Master"
         },
         {
             "name": "Rust",
@@ -151,8 +114,12 @@
             "level": "Intermediate"
         },
         {
+            "name": "Kotlin",
+            "level": "Intermediate"
+        },
+        {
             "name": "Web Development",
-            "level": "Experienced",
+            "level": "Intermediate",
             "keywords": [
                 "HTML",
                 "CSS",
