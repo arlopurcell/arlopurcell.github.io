@@ -1,1055 +1,262 @@
-<!doctype html>
+ <!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Arlo J Purcell</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <style>
-  /********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
-*******************************************/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-/****************
-*	COMMONS
-****************/
-
-body,
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 13px;
-    color: #40484f;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.46153846;
-    text-align: left;
-    -webkit-text-size-adjust: 100%;
-}
-
-p {
-    display: block;
-    margin-bottom: 1.3em;
-}
-
-a {
-    color: #0095ff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0c65a5;
-    text-decoration: underline;
-}
-
-ul {
-    margin-top: 1rem;
-}
-
-li {
-    list-style-type: square;
-    list-style-position: outside;
-    margin-left: 1.3em;
-}
-
-.highlights>li>p {
-    margin-bottom: 0.5em;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.67rem;
-}
-
-h3 {
-    font-size: 1.27rem;
-}
-
-em {
-    color: #757575;
-}
-
-blockquote {
-    margin-bottom: 1em;
-}
-
-strong {
-    font-weight: 700;
-}
-
-
-/* main container */
-
-#resume {
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
-
-/* every section wrapper */
-
-.section {
-    margin-bottom: 1rem;
-}
-
-section .location {
-    margin-right: .5em;
-    color: #606d76;
-    font-weight: 700;
-}
-
-#contact {
-    margin-top: .5rem;
-}
-
-#profiles .item {
-    padding: 0;
-}
-
-#header>#profiles,
-#header>#contact,
-#skills,
-#languages,
-#interests {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-}
-
-#header>div {
-    line-height: 1.5;
-}
-
-#header>div>div {
-    margin-right: 1.2em;
-}
-
-#header h1.name {
-    font-size: 2.8rem;
-    font-weight: 100;
-    line-height: 100%;
-}
-
-#header h2.label {
-    color: #202931;
-    font-size: 1.47rem;
-    font-weight: 300;
-}
-
-#header .picture {
-    width: 11em;
-    float: right;
-    border-radius: 4px;
-}
-
-.main-summary {
-    background: #f1f8ff;
-    padding: 1.2em 1em;
-    margin-top: 1rem;
-}
-
-.main-summary p {
-    margin: .15em 0 0;
-}
-
-h2.section-title {
-    display: inline-block;
-    background: #fff;
-    padding: 0 1em 0.3em 0;
-    color: #ff6d1f;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-    font-size: .9rem;
-}
-
-.section>header {
-    position: relative;
-}
-
-.fa {
-    margin-right: 0.25em;
-}
-
-.section>header::after {
-    position: absolute;
-    left: 0;
-    top: .7em;
-    height: 1px;
-    background: #ccc;
-    content: "";
-    width: 100%;
-    z-index: -100;
-    display: block;
-}
-
-.section.main-summary>section {
-    margin: 0;
-}
-
-.section>section>header {
-    font-size: 1.38rem;
-    position: relative;
-    margin-top: .7em;
-}
-
-.section>section>header:first-of-type {
-    margin: 0;
-}
-
-.section>section>header .space-left {
-    position: absolute;
-    left: -1.56rem;
-    top: 5px;
-    color: #aaa;
-    line-height: 1;
-    opacity: 0;
-}
-
-.position,
-.company,
-.organization,
-.institution,
-.date,
-.area,
-.studyType,
-.title,
-.awarder {
-    display: inline;
-}
-
-.position,
-.studyType,
-.area,
-.title,
-.language,
-.name {
-    font-weight: 600;
-}
-
-.company::before,
-.institution::before,
-.organization::before,
-.awarder::before {
-    content: "at "
-}
-
-.company,
-.institution,
-.organization,
-.awarder {
-    color: #606d76;
-    font-weight: 400;
-}
-
-.section header .date {
-    font-size: 1rem;
-    display: inline-table;
-    padding: .1em 0;
-    font-weight: 600;
-}
-
-ul.keywords,
-ul.courses {
-    margin-top: .5em;
-}
-
-ul.keywords li,
-ul.courses li {
-    display: inline-block;
-    margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
-    line-height: 1;
-    text-transform: lowercase;
-    color: #3e6d8e;
-    background-color: #dfeaf1;
-    border: 0 solid #dfeaf1;
-    white-space: nowrap;
-}
-
-ul.keywords li:hover,
-ul.courses li:hover {
-    background: #dfeaf0;
-}
-
-.item {
-    padding: .5em 0;
-}
-
-.gpa {
-    padding-bottom: .5em;
-}
-
-.fa.social {
-    font-size: 1.1em;
-}
-
-
-/* Social Media Brand Colors */
-
-.google-plus {
-    color: #dd4b39;
-}
-
-.tumblr {
-    color: #32506d;
-}
-
-.foursquare {
-    color: #0072b1;
-}
-
-.facebook {
-    color: #3b5998;
-}
-
-.linkedin {
-    color: #007bb6;
-}
-
-.pinterest {
-    color: #cb2027;
-}
-
-.dribbble {
-    color: #ea4c89;
-}
-
-.instagram {
-    color: #517fa4;
-}
-
-.twitter {
-    color: #00aced;
-}
-
-.soundcloud {
-    color: #ff3a00;
-}
-
-.wordpress {
-    color: #21759b;
-}
-
-.youtube {
-    color: #bb0000;
-}
-
-.github {
-    color: #171515;
-}
-
-.stack-overflow {
-    color: #828386;
-    position: relative;
-}
-
-.flickr {
-    color: #ff0084;
-}
-
-.stack-overflow::after {
-    position: absolute;
-    left: 0;
-    content: '\f16c';
-    color: #f68a1f;
-    overflow: hidden;
-    height: 100%;
-}
-
-.telegram {
-    color: #2291c3;
-}
-
-#languages .item,
-#skills .item,
-#interests .item {
-    width: 15em;
-    padding: 0 .5em .5em 0;
-    border-bottom: none;
-}
-
-#skills .item {
-    width: 16em;
-}
-
-#skills .item .keywords {
-    width: 15em;
-}
-
-
-/* Skill chart */
-
-.level {
-    margin-bottom: .5em;
-}
-
-.level .bar {
-    border: 1px solid #ddd;
-    display: block;
-    width: 10em;
-    height: 5px;
-    position: relative;
-}
-
-.level .bar::after {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    background: black;
-    height: 5px;
-}
-
-.level.beginner .bar::after {
-    background: #EB5F51;
-    width: 2.5em;
-}
-
-.level.intermediate .bar::after {
-    background: #ffdf1f;
-    width: 5em;
-}
-
-.level.advanced .bar::after,
-.level.fluent .bar::after {
-    background: #5CB85C;
-    width: 7.5em;
-}
-
-.level.master .bar::after,
-.level.native.speaker .bar::after {
-    background: #59C596;
-    width: 10em;
-}
-
-#references .item {
-    padding-left: .5em;
-    border-left: 5px solid #ff6d1f;
-}
-
-.toggle-item {
-  visibility: hidden;
-}
-
-/******************
-*	HELPER CLASSES
-******************/
-
-.clear::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.display {
-    display: block;
-    opacity: 1 !important;
-}
-
-.margin1 {
-    margin-bottom: .5rem;
-}
-
-
-/****************
-*		TABLET
-****************/
-
-@media screen and (min-width: 602px) {
-    #resume {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-
-
-/****************
-*		LAPTOP
-****************/
-
-@media screen and (min-width: 1025px) {
-    li {
-        margin-left: 1.5em;
-    }
-    #resume {
-        width: 820px;
-        margin: 2rem auto;      
-    }
-    .section>section>header .space-left {
-        opacity: 1;
-        cursor: pointer;
-    }
-    .section>section {
-        margin-left: 1.67rem;
-    }
-    .toggle-item {
-        transform: translate(-9999px);
-    }
-    .toggle-item+label {
-        display: block;
-        margin-top: -16px;
-    }
-    .toggle-item:checked+label:after {
-        content: '\f0d7';
-    }
-    .toggle-item+label:after {
-        float: left;
-        cursor: pointer;
-        margin-left: -20px;
-        color: #aaa;
-        font-size: 16px;
-        content: '\f0da';
-        font-family: Fontawesome;
-    }
-    .toggle-item~.item {
-        height: 0;
-        opacity: 0;
-    }
-    .toggle-item:checked~.item {
-        height: auto;
-        opacity: 1;
-        transition: all .5s linear;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "| ";
-    }
-    .header-left {
-        float: left;
-        width: 70%;
-        word-break: normal;
-    }
-    .section header .date {
-        float: right;
-        padding: .2em;
-    }
-    .display {
-        display: none;
-    }
-    .display:not(.none) {
-        display: block;
-    }
-}
-
-@media print {
-    #resume {
-        margin: 0;
-        padding: 0;
-        -ms-word-wrap: break-word;
-        word-wrap: break-word;
-        line-height: 1.3;
-        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
-    }
-    @page {
-        margin: 1cm 1.4cm;
-    }
-    .item-count {
-        display: none;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "at ";
-    }
-    .main-summary {
-        padding: 2rem 0;
-    }
-    .section {
-        margin: .8rem 0;
-        padding: 0;
-    }
-    .section header {
-        padding-bottom: .15rem;
-    }
-    .section .location {
-        padding-bottom: .15rem;
-    }
-    .stack-overflow::after {
-        content: "";
-    }
-    .fa.social {
-        color: #828386;
-    }
-    ul {
-        margin-top: .4em;
-    }
-    ul,
-    li {
-        padding: 0;
-    }
-    ul.keywords li,
-    ul.courses li {
-        margin: 0;
-        padding: 0;
-        font-size: .8rem;
-        text-transform: lowercase;
-    }
-    ul.keywords li::after,
-    ul.courses li::after {
-        padding: 0 0 0 .1rem;
-        content: " |";
-    }
-    ul.keywords::before,
-    ul.courses::before {
-        font-size: .8rem;
-        font-weight: 600;
-    }
-    ul.keywords::before {
-        content: "Skills acquired: ";
-    }
-    #skills .keywords::before {
-        content: '';
-    }
-    .section p {
-        margin: 0;
-        padding: 0;
-    }
-    ul.courses::before {
-        content: "Major courses: ";
-    }
-    ul.keywords li:last-of-type::after,
-    ul.courses li:last-of-type::after {
-        content: "";
-    }
-    .level em {
-        font-style: normal;
-        padding: .1em 0;
-    }
-    .level .bar {
-        display: none;
-    }
-    #profiles .item {
-        padding: 0;
-    }
-    .item.display {
-        display: block;
-        opacity: 1 !important;
-    }
-}
-
-  </style>
-  
+    <title>Arlo Purcell - Resume</title>
+    <link rel="stylesheet" href="resume.css">
+    <style>
+      @font-face {
+          font-family: "VictorMono";
+          font-style: normal;
+          font-weight: 200;
+          src: url(https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/VictorMono/Regular/complete/Victor%20Mono%20Regular%20Nerd%20Font%20Complete.ttf?raw=true);
+      }
+
+      @font-face {
+          font-family: "VictorMono";
+          font-style: italic;
+          font-weight: 200;
+          src: url(https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/VictorMono/Italic/complete/Victor%20Mono%20Italic%20Nerd%20Font%20Complete.ttf?raw=true);
+      }
+
+      html {font-family: "VictorMono monospace sans-serif"}
+    </style>
   </head>
   <body>
-  
-  <div id="resume">
-    	<header id="header" class="clear">
-    		<div>
-    			<h1 class="name">Arlo J Purcell</h1>
-    			<h2 class="label"></h2>
-    		</div>
-    		
-    		<span class="location">
-    			<span class="address">4764 New River Road,</span> 
-    			<span class="postalCode">29576,</span> 
-    			<span class="city">Murrells Inlet,</span> 
-    			<span class="region">South Carolina</span> 
-    			<span class="countryCode">US</span> 
-    		</span>
-    		
-    
-    		<div id="contact">
-    			<div class="website">
-    				<span class="fa fa-external-link"></span>
-    				<a target="_blank" target="_blank" href="https://arlopurcell.github.io">https://arlopurcell.github.io</a>
-    			</div>
-    			<div class="email">
-    				<span class="fa fa-envelope-o"></span>
-    				<a href="mailto:arlo@purcell.live">arlo@purcell.live</a>
-    			</div>
-    			<div class="phone">
-    				<span class="fa fa-mobile"></span>
-    				<a href="tel:512-779-5465">512-779-5465</a>
-    			</div>
-    		</div>
-    
-    	</header>
-    
-    	<section class="section main-summary">
-    		<section>
-    			<div><p>I have a wide variety of experience in software, from point of sale software to natural language processing to global search engines. I have a drive to innovate, explore, solve interesting problems, and build great things.</p></div>
-    		</section>
-    	</section>
-    
-    <section class="section margin1">
-    	<header>
-    		<h2 class='section-title'>Skills</h2>
-    	</header>
-    	<section id="skills">
-    		<div class="item">
-    			<h3 class="name">
-    				Java
-    			</h3>
-    			 
-    			<div class="level master">
-    				<em>Master</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Python
-    			</h3>
-    			 
-    			<div class="level master">
-    				<em>Master</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Rust
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Scala
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Javascript
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Kotlin
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Web Development
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>HTML</li>
-    				<li>CSS</li>
-    				<li>WebAssembly</li>
-    			</ul>
-    		</div>
-    	</section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
-      </header>
-    
-      <section id="work">
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Staff Software Engineer</div>
-    				<div class="company">Indeed.com</div>
-    				<div class="date">
-    				  <span class="startDate">August 2014</span> 
-    					<span class="endDate">- Current</span>
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="http://www.indeed.com">http://www.indeed.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <ul class="highlights">
-                <li><p>Improved job posting javascript frontend using Closure library and compiler with soy template</p></li>
-                <li><p>Added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ</p></li>
-                <li><p>Implemented and supported internal tooling for other engineers</p></li>
-                <li><p>Created internal developer environment system using bash and python scripts around docker</p></li>
-                <li><p>Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs</p></li>
-                <li><p>Proctored and graded coding exams for interview candidates</p></li>
-                <li><p>Built a new system to aggregate data on code changes and then make automated merge decisions for continuous delivery</p></li>
-                <li><p>Designed and implemented fast tool for querying, filtering, and caching production and QA logs</p></li>
-                <li><p>Iteratively built and validated a new, caregiving job marketplace application as part of an internal incubator program</p></li>
-                <li><p>Lead a team building a tool to build and execute data pipelines to convert application logs into queryable indices</p></li>
-                <li><p>Wrote a custom expression language for processing data to build into indices</p></li>
-                <li><p>Implemented fraud prevention and mitigation measures in candidate tracking system</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Research and Development Engineer</div>
-    				<div class="company">IPsoft</div>
-    				<div class="date">
-    				  <span class="startDate">February 2013</span> 
-    					<span class="endDate">- August 2014</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="http://www.ipsoft.com">http://www.ipsoft.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <ul class="highlights">
-                <li><p>Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases</p></li>
-                <li><p>Estimated and assigned new features and bugs to my team</p></li>
-                <li><p>Managed the project using agile methodologies</p></li>
-                <li><p>Designed and implemented a first order logic engine for interpreting and then acting upon natural language</p></li>
-                <li><p>Conceived and realized the machine learning system for dynamically creating and executing new business processes</p></li>
-                <li><p>Fine tuned module for understanding, analyzing, and storing natural language, then generating natural language responses</p></li>
-                <li><p>Demonstrated and explained the functionality and design of the system to high level executives at enterprise clients</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Software Engineer</div>
-    				<div class="company">Google</div>
-    				<div class="date">
-    				  <span class="startDate">February 2012</span> 
-    					<span class="endDate">- February 2013</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.google.com">https://www.google.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <ul class="highlights">
-                <li><p>Developed library for deploying video ads in client applications</p></li>
-                <li><p>Fixed bugs in Flash, Javascript, iOS, and Android versions of the library</p></li>
-                <li><p>Designed and implemented an original new version of the Android library</p></li>
-                <li><p>Created a new version of the library for Samsung smart TV</p></li>
-                <li><p>Maintained and expanded unit and integration tests</p></li>
-                <li><p>Managed public releases of the library</p></li>
-                <li><p>Meticulously documented all code changes and new additions</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Associate Applications Engineer</div>
-    				<div class="company">Micros Retail Systems</div>
-    				<div class="date">
-    				  <span class="startDate">August 2010</span> 
-    					<span class="endDate">- March 2012</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="http://www.microsnyc.com">http://www.microsnyc.com</a>
-        	</span>      	<div class="item" id="work-item">
-            <ul class="highlights">
-                <li><p>Developed Java point of sale application</p></li>
-                <li><p>Developed and deployed iOS point of sale application</p></li>
-                <li><p>Designed and implemented customer specific modifications</p></li>
-                <li><p>Interfaced with customers to determine requirements for modifications and configurations</p></li>
-                <li><p>Worked with quality assurance to resolve feedbacks</p></li>
-            </ul>
-        	</div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
-      </header>
-    
-      <section id="education">
-        <section class="education-item">
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                Bachelor of Arts
-              </div>
-              <div class="area">
-                Computer Science
-              </div>
-              <div class="institution">
-                Oberlin College
-              </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="section">
+          <h1>Arlo J. Purcell</h1>
+          <div class="contact-info">
+            <div>
+              307 Tregaron Rd<br />
+              Bala Cynwyd, PA 19004
             </div>
-            <div class="date">
-              <span class="startDate">
-              2007
-              </span>
-              <span class="endDate">
-              - 2010
-              </span>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-            <div class='gpa'>
-              <strong> Grade:</strong> <span>3.67</span>
+            <div>
+              <a href="arlopurcell.github.io">arlopurcell.github.io</a><br />
+              <a href="mailto:arlo@purcell.live">arlo@purcell.live</a><br />
+              <a href="tel:610-255-7154">610-255-7154</a>
             </div>
           </div>
-        </section>
-      </section>
-    </section>
+        </div>
+        <div class="section">
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Skills</div>
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2;" />
+            </svg> 
+          </div>
+
+          <div class="skills">
+            <div>Python</div>
+            <div>Java</div>
+            <div>Rust</div>
+            <div>Scala</div>
+            <div>Elixir</div>
+            <div>Kafka</div>
+            <div>Javascript</div>
+            <div>React</div>
+            <div>HTML</div>
+            <div>Web Assembly</div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Work Experience</h2>
+
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Royal Markets</div>
+            <svg class="blue orange-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2; background-color: #cb4b16;" />
+            </svg> 
+            <div class="orange-back">Staff Software Engineer</div>
+            <svg class="orange green-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #cb4b16;" />
+            </svg> 
+            <div class="green-back">August 2022-December 2022</div>
+            <svg class="green" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #859900;" />
+            </svg> 
+          </div>
+          <div>(Laid off due to budget cuts)</div>
+          <div><a href="https://royal.io">https://royal.io</a></div>
+          <ul>
+            <li>Created generic blockchain meta transaction flow for handling various types of blockchain transactions</li>
+            <li>Worked on Elixir Graph QL interfaces for payments backend</li>
+            <li>Integrated with 3rd party vendors to on ramp and off ramp funds to and from the platform</li>
+            <li>Built GRPC endpoints to communicate between microservices</li>
+          </ul>
+          <hr />
+
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Decodable</div>
+            <svg class="blue orange-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2; background-color: #cb4b16;" />
+            </svg> 
+            <div class="orange-back">Staff Software Engineer</div>
+            <svg class="orange green-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #cb4b16;" />
+            </svg> 
+            <div class="green-back">July 2021-August 2022</div>
+            <svg class="green" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #859900;" />
+            </svg> 
+          </div>
+          <div><a href="https://decodable.co">https://decodable.co</a></div>
+          <ul>
+            <li>Implemented live streaming data preview on Apache Flink</li>
+            <li>Built system to deploy software across multi-tenant kubernetes cluster</li>
+            <li>Created system to automatedly access stream metadata in Decodable environment</li>
+            <li>Helped to build core streaming data platform</li>
+          </ul>
+          <hr />
+          
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Indeed</div>
+            <svg class="blue orange-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2; background-color: #cb4b16;" />
+            </svg> 
+            <div class="orange-back">Staff Software Engineer</div>
+            <svg class="orange green-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #cb4b16;" />
+            </svg> 
+            <div class="green-back">August 2014-July 2021</div>
+            <svg class="green" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #859900;" />
+            </svg> 
+          </div>
+          <div><a href="https://indeed.com">https://indeed.com</a></div>
+          <ul>
+            <li>Improved job posting javascript frontend using Closure library and compiler with soy template</li>
+            <li>Added new features, fixed bugs, and improved performance on Java/Spring/Tomcat backend. The backend also used MySQL, MongoDB, and RabbitMQ</li>
+            <li>Implemented and supported internal tooling for other engineers</li>
+            <li>Created internal developer environment system using bash and python scripts around docker</li>
+            <li>Maintained and improved internal deployment management webapp using a soy template with JQuery frontend and a Java/Spring/Tomcat backend interfacing with git and Gitlab and Atlassian APIs</li>
+            <li>Wrote problems, proctored and graded coding exams for interview candidates</li>
+            <li>Built a new system to aggregate data on code changes and then make automated merge decisions for continuous delivery</li>
+            <li>Designed and implemented fast tool for querying, filtering, and caching production and QA logs</li>
+            <li>Iteratively built and validated a new, caregiving job marketplace application as part of an internal incubator program</li>
+            <li>Lead a team building a tool to build and execute data pipelines to convert application logs into queryable indices</li>
+            <li>Wrote a custom expression language for processing data to build into indices</li>
+            <li>Implemented fraud prevention and mitigation measures in candidate tracking system</li>
+          </ul>
+          <hr />
+
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Amelia (Formerly IPSoft)</div>
+            <svg class="blue orange-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2; background-color: #cb4b16;" />
+            </svg> 
+            <div class="orange-back">R&amp;D Engineer</div>
+            <svg class="orange green-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #cb4b16;" />
+            </svg> 
+            <div class="green-back">February 2013-August 2014</div>
+            <svg class="green" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #859900;" />
+            </svg> 
+          </div>
+          <div><a href="https://amelia.ai">https://amelia.ai</a></div>
+          <ul>
+            <li>Led a geographically separated team of developers in the creation of a new artificial intelligence system for human interaction, supported by relational and graph databases</li>
+            <li>Estimated and assigned new features and bugs to my team</li>
+            <li>Designed and implemented a first order logic engine for interpreting and then acting upon natural language</li>
+            <li>Conceived and realized the machine learning system for dynamically creating and executing new business processes</li>
+            <li>Fine tuned module for understanding, analyzing, and storing natural language, then generating natural language responses</li>
+            <li>Demonstrated and explained the functionality and design of the system to high level executives at enterprise clients</li>
+          </ul>
+          <hr />
+
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Google</div>
+            <svg class="blue orange-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2; background-color: #cb4b16;" />
+            </svg> 
+            <div class="orange-back">Software Engineer</div>
+            <svg class="orange green-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #cb4b16;" />
+            </svg> 
+            <div class="green-back">February 2012-February 2013</div>
+            <svg class="green" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #859900;" />
+            </svg> 
+          </div>
+          <div><a href="https://google.com">https://google.com</a></div>
+          <ul>
+            <li>Developed library for deploying video ads in client applications</li>
+            <li>Fixed bugs in Flash, Javascript, iOS, and Android versions of the library</li>
+            <li>Designed and implemented an original new version of the Android library</li>
+            <li>Created a new version of the library for Samsung smart TV</li>
+            <li>Maintained and expanded unit and integration tests</li>
+            <li>Managed public releases of the library</li>
+            <li>Meticulously documented all code changes and new additions</li>
+          </ul>
+          <hr />
+
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Micros Retail</div>
+            <svg class="blue orange-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2; background-color: #cb4b16;" />
+            </svg> 
+            <div class="orange-back">Associate Software Engineer</div>
+            <svg class="orange green-back" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #cb4b16;" />
+            </svg> 
+            <div class="green-back">August 2021-September 2022</div>
+            <svg class="green" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #859900;" />
+            </svg> 
+          </div>
+          <div><a href="https://www.oracle.com/industries/micros/">https://www.oracle.com/industries/micros/</a></div>
+          <ul>
+            <li>Developed Java point of sale application</li>
+            <li>Developed and deployed iOS point of sale application</li>
+            <li>Designed and implemented customer specific modifications</li>
+            <li>Interfaced with customers to determine requirements for modifications and configurations</li>
+            <li>Worked with quality assurance to resolve issues</li>
+          </ul>
+        </div>
+          <hr />
+        <div class="section">
+          <div class="arrow-segment">
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,10 15,0 15,20" style="fill: #268bd2;"/>
+            </svg> 
+            <div class="blue-back">Education</div>
+            <svg class="blue" height="20" width="15">
+              <polygon points="0,0 15,10 0,20" style="fill: #268bd2;" />
+            </svg> 
+          </div>
+
+          <div class="education">
+            <div><strong>Oberlin College</strong></div>
+            <div>Bachelor of Arts in Computer Science</div>
+            <div><strong>GPA:</strong> 3.67</div>
+            <div><strong>2007 - 2010</strong></div>
+          </div>
+      </div>
+    </div>
 
   </body>
-</html>
+</html> 
