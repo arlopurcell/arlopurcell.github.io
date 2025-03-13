@@ -599,7 +599,7 @@
     #strong[Oberlin College], BA in Computer Science, Physics 
   ],
   right-content: [
-    Dec 2007 – Dec 2010
+    Sept 2007 – May 2010
   ],
 )
 #block(
