@@ -15,8 +15,17 @@ cv:
       - label: "Languages"
         details: "Python, Rust, Elixir, Java, Kotlin, Scala, SQL, Bash, JavaScript, TypeScript, HTML, CSS"
       - label: "Technologies"
-        details: "React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django"
+        details: "React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django, LLMs, AI"
     experience:
+      - company: "Guideline"
+        position: "Senior Software Engineer"
+        location: "Remote"
+        start_date: "2025-07-02"
+        highlights:
+          - "Added support for flexible billing to Guideline's 401k plans"
+          - "Improved test coverage for document generation modules"
+          - "Used LLMs to assist with software engineering"
+          - "Collaborated with other engineers and teams to solidify requirements for new features"
       - company: "Iterative Health"
         position: "Senior Software Engineer"
         location: "Remote"
@@ -240,7 +249,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-02-27'
   bold_keywords: []
   render_command:
     output_folder_name: resume

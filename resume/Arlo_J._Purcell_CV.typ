@@ -3,7 +3,7 @@
 
 #let name = "Arlo J. Purcell"
 #let locale-catalog-page-numbering-style = context { "Arlo J. Purcell - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated Feb 2025"
+#let locale-catalog-last-updated-date-style = "Last updated Aug 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -477,13 +477,28 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Technologies:] React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django]
+  content: [#strong[Technologies:] React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django, LLMs, AI]
 )
 
 
 == Experience
 
 
+#two-col-entry(
+  left-content: [
+    #strong[Senior Software Engineer], Guideline -- Remote
+  ],
+  right-content: [
+    July 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Added support for flexible billing to Guideline's 401k plans],[Improved test coverage for document generation modules],[Used LLMs to assist with software engineering],[Collaborated with other engineers and teams to solidify requirements for new features],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Senior Software Engineer], Iterative Health -- Remote
