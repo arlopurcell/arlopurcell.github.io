@@ -20,7 +20,8 @@ cv:
       - company: "Guideline"
         position: "Senior Software Engineer"
         location: "Remote"
-        start_date: "2025-07-02"
+        start_date: "2025-06-02"
+        end_date: "2025-08-29"
         highlights:
           - "Added support for flexible billing to Guideline's 401k plans"
           - "Improved test coverage for document generation modules"

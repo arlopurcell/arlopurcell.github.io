@@ -3,7 +3,7 @@
 
 #let name = "Arlo J. Purcell"
 #let locale-catalog-page-numbering-style = context { "Arlo J. Purcell - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated Aug 2025"
+#let locale-catalog-last-updated-date-style = "Last updated Sept 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -489,7 +489,7 @@
     #strong[Senior Software Engineer], Guideline -- Remote
   ],
   right-content: [
-    July 2025 – present
+    June 2025 – Aug 2025
   ],
 )
 #one-col-entry(
