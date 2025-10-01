@@ -25,7 +25,7 @@ cv:
         highlights:
           - "Added support for flexible billing to Guideline's 401k plans"
           - "Improved test coverage for document generation modules"
-          - "Used LLMs to assist with software engineering"
+          - "Used Cursor and LLMs to assist with software engineering"
           - "Collaborated with other engineers and teams to solidify requirements for new features"
       - company: "Iterative Health"
         position: "Senior Software Engineer"
