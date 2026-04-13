@@ -13,10 +13,19 @@ cv:
       - "I have a wide variety of experience and interest within various fields of computing, with experience from point of sale software to machine learning to giant internet companies. I am looking to expand my horizons, solve interesting problems, and build great things."
     skills:
       - label: "Languages"
-        details: "Python, Rust, Elixir, Java, Kotlin, Scala, SQL, Bash, JavaScript, TypeScript, HTML, CSS"
+        details: "Python, Rust, Elixir, Java, Kotlin, Scala, SQL, Bash, Golang, JavaScript, TypeScript, HTML, CSS"
       - label: "Technologies"
-        details: "React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django, LLMs, AI"
+        details: "Claude Code, React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django, LLMs, AI"
     experience:
+      - company: "CloneForce"
+        position: "Senior Software Engineer"
+        location: "Remote"
+        start_date: "2025-11-03"
+        highlights:
+          - "Built a platform for enterprises to provision and use LLM agents"
+          - "Integrated with Twilio to enable communication with agents via SMS and WhatsApp"
+          - "Built system to upload and normalize files for use in the knowledge base"
+          - "Used coding agents on a daily basis to accelerate development"
       - company: "Guideline"
         position: "Senior Software Engineer"
         location: "Remote"

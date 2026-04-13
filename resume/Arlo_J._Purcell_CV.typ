@@ -3,7 +3,7 @@
 
 #let name = "Arlo J. Purcell"
 #let locale-catalog-page-numbering-style = context { "Arlo J. Purcell - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated Sept 2025"
+#let locale-catalog-last-updated-date-style = "Last updated Apr 2026"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -473,17 +473,32 @@
 
 
 #one-col-entry(
-  content: [#strong[Languages:] Python, Rust, Elixir, Java, Kotlin, Scala, SQL, Bash, JavaScript, TypeScript, HTML, CSS]
+  content: [#strong[Languages:] Python, Rust, Elixir, Java, Kotlin, Scala, SQL, Bash, Golang, JavaScript, TypeScript, HTML, CSS]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Technologies:] React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django, LLMs, AI]
+  content: [#strong[Technologies:] Claude Code, React, Terraform, AWS, Docker, Kubernetes, Kafka, gRPC, REST, GraphQL, FastAPI, Django, LLMs, AI]
 )
 
 
 == Experience
 
 
+#two-col-entry(
+  left-content: [
+    #strong[Senior Software Engineer], CloneForce -- Remote
+  ],
+  right-content: [
+    Nov 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Built a platform for enterprises to provision and use LLM agents],[Integrated with Twilio to enable communication with agents via SMS and WhatsApp],[Built system to upload and normalize files for use in the knowledge base],[Used coding agents on a daily basis to accelerate development],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Senior Software Engineer], Guideline -- Remote
@@ -494,7 +509,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Added support for flexible billing to Guideline's 401k plans],[Improved test coverage for document generation modules],[Used LLMs to assist with software engineering],[Collaborated with other engineers and teams to solidify requirements for new features],)
+    #v(design-highlights-top-margin);#highlights([Added support for flexible billing to Guideline's 401k plans],[Improved test coverage for document generation modules],[Used Cursor and LLMs to assist with software engineering],[Collaborated with other engineers and teams to solidify requirements for new features],)
   ],
 )
 
