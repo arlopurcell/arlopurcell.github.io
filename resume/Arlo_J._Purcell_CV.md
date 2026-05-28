@@ -20,17 +20,19 @@ I have a wide variety of experience and interest within various fields of comput
 
 Remote
 
-Nov 2025 – present
+Nov 2025 – June 2026
 
 
 
-7 months
+8 months
 
 - Built a platform for enterprises to provision and use LLM agents
 
 - Integrated with Twilio to enable communication with agents via SMS and WhatsApp
 
 - Built system to upload and normalize files for use in the knowledge base
+
+- Created tooling to migrate clones between the legacy and new systems
 
 - Used coding agents on a daily basis to accelerate development
 

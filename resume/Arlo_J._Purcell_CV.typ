@@ -119,17 +119,19 @@ I have a wide variety of experience and interest within various fields of comput
 
     - Built system to upload and normalize files for use in the knowledge base
 
+    - Created tooling to migrate clones between the legacy and new systems
+
     - Used coding agents on a daily basis to accelerate development
 
   ],
   [
     Remote
 
-    Nov 2025 – present
+    Nov 2025 – June 2026
 
     
 
-    7 months
+    8 months
 
   ],
 )
