@@ -1,2 +1,4 @@
-* edit resume.rendercv.yaml
-* run `rendercv render resume/resume.rendercv.yaml`
+To update the resume
+* `cd resume`
+* edit Arlo_Purcell_CV.yaml
+* run `rendercv render Arlo_Purcell_CV.yaml -o .`
